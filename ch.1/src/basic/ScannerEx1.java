@@ -11,5 +11,6 @@ public class ScannerEx1 {
         int input = sc.nextInt();
         System.out.printf("입력값 : %d", input);
         sc.close();
+
     }
 }

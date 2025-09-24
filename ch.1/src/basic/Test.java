@@ -1,9 +1,10 @@
 package basic;
 
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
-        int num = 20;
-        System.out.println(num);
+        Scanner sc = new Scanner(System.in);
 
     }
 }
