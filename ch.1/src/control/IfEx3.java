@@ -12,14 +12,10 @@ public class IfEx3 {
                 b += "*";
                 System.out.println(b);
 
-            } else if (i == 10) {
-                for (int j = 0; j < args.length; j++) {
-
-                }
-
             }
 
         }
+
     }
 
 }
