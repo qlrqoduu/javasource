@@ -35,6 +35,11 @@ public class Dooooo {
                 }
             } else {
                 System.out.println("정답");
+                if (count <= 5) {
+                    System.out.println("당첨입니다! 당신은 찍기 왕!");
+
+                }
+                ;
             }
             count++;
 
