@@ -14,9 +14,17 @@ public class ArrayEx89 {
         System.out.println("번호 국어 영어 수학 총점 평균");
         System.out.println("============================");
 
+        int gook = 0;
+        int math = 0;
+        int eng = 0;
+
         for (int i = 0; i < jumsu.length; i++) {
             System.out.printf("%3d", i + 1);
             int sum = 0;
+
+            gook += jumsu[i][0];
+            math += jumsu[i][1];
+            eng += jumsu[i][2];
 
             for (int j = 0; j < jumsu[i].length; j++) {
                 System.out.printf("%5d", jumsu[i][j]);
@@ -29,7 +37,7 @@ public class ArrayEx89 {
             System.out.println("\t");
         }
         System.out.println("============================");
-        System.out.println("총점 : %d, 국어 총점 : %d, 영어 총점 : %d, 수학 총점 : %d");
+        System.out.printf("총점 : %d, 국어 총점 : %d, 영어 총점 : %d, 수학 총점 : %d", gook + math + eng, gook, math, eng);
 
     }
 }
